@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix{
+    clear: both;
+}
+
+/* css reset end*/
+
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 300px;
+    background:#424242;
+    
+}
+
+.header img{
+    height: 117px;
+    width: 117px;
+    margin: 92px 97px 91px 173px;
+    float: left;
+}
+
+.header .countInput{
+   display: block;
+   float: left;
+   margin-top: 60px;
+   position: relative;
+    
+}
+
+.header .countInput label{
+    font-size: 18px;
+    color: #FFD366; 
+    
+}
+
+.header .countInput input{
+    width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    font-size: 24px;
+    color: rgba(255,255,255,0.50);
+    padding-left: 10px;
+    /* 清除點擊後的藍色框框 */
+    outline: none;
+    
+}
+
+.header .btn{
+    width: 120px;
+    height: 120px;
+    background: #FFD366;
+    border: 0;
+    border-radius: 120px;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 24px;
+    color: #424242;
+    /* 清除點擊後的藍色框框 */
+    outline: none;
+    cursor: pointer;
+}
+
+
+.bmi h3{
+    padding-top: 20px;
+}
+
+.header .btn:hover{
+    background: #DEA921;
+}
+
+.header .btn:focus{
+    background: #FF982D;
+}
+
+.header .checkStatus{
+    float: right;
+margin-top: 150px;
+margin-right: 60px;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+.content{
+    width: 1024px;
+    
+    text-align: center;
+    background: #F5F5F5;
+    display: inline-block;
+
+}
+
+.content h2{
+    font-size: 24px;
+    color: #424242;
+    padding-top: 42px;
+    padding-bottom:36px;
+}
+
+.content .bmiRecords{
+    margin: 0 auto;
+    display: block;
+    width: 800px;
+}
+
+.content .bmiRecords li{
+    margin-bottom: 30px;
+    background:#ffffff;
+    padding: 20px 0px 35px 0px;
+    list-style: none;
+}
+
+.content .bmiRecords h3 {
+    font-size: 20px;
+    float: left;
+    padding-right:70px ;
+    padding-left: 20px; 
+}
+
+.content .bmiRecords p{
+    font-size:18px;
+    float: left;
+    padding-left: 30px;
+}
+
+.content .bmiRecords .status{
+    padding-left: 35px;
+    font-size: 20px;
+}
+ 
+.content .bmiRecords .day{
+    padding-left: 70px;
+}
+
+.content .bmiRecords .del {
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: blod;
+    color:#a1a1a1;
+    
+}
+
+.footer{
+    background: #FFD366;
+    height: 90px;
+    text-align: center;
+}
+
+.footer img{
+    width: 55px;
+    height: 55px;
+    padding-top: 17px;
+}
+/*list 的框線*/
+.blue{
+    border-left: 10px solid  #31BAF9;
+}
+
+.green{
+    border-left: 10px solid #86D73F;
+}
+
+.orange{
+    border-left: 10px solid #FF982D;
+}
+
+.orangeRed{
+    border-left: 10px solid #FF6C02;
+}
+
+.red{
+    border-left:10px solid #FF1200;
+}
+
+.brown{
+    border-left:10px solid #7A1916;
+}
+
+/*btn框線與內容顏色*/
+#btnBlue{
+    border:  5px solid #31BAF9;
+    background: #424242;
+    color: #FFFFFF;
+}
+
+#btnGreen{
+    border:  5px solid #86D73F;
+    background: #424242;
+    color: #FFFFFF;
+}
+
+#btnOrange{
+    border: 5px solid #FF982D;
+    background: #424242;
+    color: #FFFFFF;
+}
+
+#btnOrangeRed{
+    border: 5px solid #FF6C02;
+    background: #424242;
+    color: #FFFFFF;
+}
+
+#btnRed{
+    border: 5px solid #FF1200;
+    background: #424242;
+    color: #FFFFFF;
+}
+
+#btnBrown{
+    border: 5px solid #7A1916;
+    background: #424242;
+    color: #FFFFFF;
+}
